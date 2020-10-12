@@ -1,0 +1,34 @@
+.login{
+   
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    
+
+}
+
+.loginLogo{
+    padding: 10px;
+    justify-content: space-evenly;
+    
+}
+.loginLogo h2{
+    padding: 10px 0px;
+ color:  #0E8EF1;
+ font-weight: 800;
+}
+
+.loginLogo > img{
+    margin: 0 auto;
+    height: 100px;
+}
+
+.login > Button{
+    background-color: #0E8EF1;
+    color: white;
+    width: 400px;
+}
+.login > Button:hover{
+    background-color: #fff;
+    color: #2e81f4;
+}
